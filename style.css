@@ -20,6 +20,7 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 100px;
   border-radius: 10px;
+  max-width: 90%;
 }
 
 .overlay img {
@@ -47,8 +48,8 @@ body {
   justify-content: center;
   align-items: center;
   position: absolute;
-  right: 0px;
-  top: 0px;
+  right: 0;
+  top: 0;
   width: 60px;
   background-color: rgba(12, 13, 22, 1);
   border-radius: 5px;
@@ -125,7 +126,7 @@ body {
 }
 
 .large {
-  font-size: 50px;
+  font-size: 3rem;
 }
 
 @keyframes smoothPopUpIn {
@@ -134,5 +135,25 @@ body {
   }
   100% {
     opacity: 1;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .overlay {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .overlay {
+    width: 100%;
+    border-radius: 0;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .large {
+    font-size: 2rem;
   }
 }
