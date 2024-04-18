@@ -37,21 +37,20 @@ body {
   top: 20px;
   width: 60px;
   height: 40px;
-  background-color: #46c5e2;
   border-radius: 5px;
 }
 
 .language-select {
+  padding: 20px 20px;
   display: none;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   position: absolute;
-  right: 20px;
-  top: 20px;
+  right: 0px;
+  top: 0px;
   width: 60px;
-  height: 191px;
-  background-color: #46c5e2;
+  background-color: rgba(12, 13, 22, 1);
   border-radius: 5px;
   z-index: 2;
 }
@@ -67,6 +66,7 @@ body {
 
 .language-show:hover + .language-select,
 .language-select:hover {
+  animation: smoothPopUpIn ease-in 0.3s;
   display: flex;
 }
 
@@ -77,24 +77,24 @@ body {
 
 .logo-github {
   position: absolute;
-  bottom: 20px; /* Abstand vom unteren Rand */
-  right: 100px; /* Abstand vom rechten Rand */
+  bottom: 20px;
+  right: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 10px 20px;
-  background-color: #46c5e2;
+  background-color: #27B8D9;
   color: #ffffff;
   border: none;
   border-radius: 5px;
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  margin-top: 10px; /* Abstand zwischen den Buttons */
+  margin-top: 10px;
 }
 
 .logo-github:hover {
-  background-color: #2098b3;
+  background-color: #26899f;
 }
 .logo-discord {
   position: absolute;
@@ -104,7 +104,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 10px 20px;
-  background-color: #46c5e2;
+  background-color: #27B8D9;
   color: #ffffff;
   border: none;
   border-radius: 5px;
@@ -115,12 +115,12 @@ body {
 }
 
 .logo-discord:hover {
-  background-color: #2098b3;
+  background-color: #26899f;
 }
 
 .logo {
-  width: 25px;
-  height: 25px;
+  width: 30px;
+  height: 30px;
   margin-right: 0px;
 }
 
@@ -128,4 +128,11 @@ body {
   font-size: 50px;
 }
 
-/* TESTEN OMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE */
+@keyframes smoothPopUpIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

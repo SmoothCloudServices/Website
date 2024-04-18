@@ -1,6 +1,6 @@
 var translations = {
   'en': {
-    imageName: "england",
+    imageName: "american",
     pageTitle: 'Welcome to SmoothCloudServices!',
     wartungsText: 'This Site is currently in maintenance. Please try again later!'
   },
@@ -18,6 +18,11 @@ var translations = {
     imageName: "spain",
     pageTitle: '¡Bienvenido a SmoothCloudServices!',
     wartungsText: 'Este sitio está actualmente en mantenimiento. Vuelva a intentarlo más tarde.'
+  },
+  'ru': {
+    imageName: "russian",
+    pageTitle: 'Добро пожаловать в SmoothCloudServices!',
+    wartungsText: 'Этот сайт в настоящее время находится на обслуживании. Пожалуйста, повторите попытку позже!'
   }
 };
 
