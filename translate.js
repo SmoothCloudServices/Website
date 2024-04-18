@@ -1,27 +1,27 @@
 var translations = {
   'en': {
     imageName: "american",
-    pageTitle: 'Welcome to SmoothCloudServices!',
+    pageTitle: 'Welcome to SmoothCloud!',
     wartungsText: 'This Site is currently in maintenance. Please try again later!'
   },
   'de': {
     imageName: "german",
-    pageTitle: 'Willkommen bei SmoothCloudServices!',
+    pageTitle: 'Willkommen bei SmoothCloud!',
     wartungsText: 'Diese Seite steht gerade unter Wartungsarbeiten. Bitte versuche es später erneut!'
   },
   'fr': {
     imageName: "france",
-    pageTitle: 'Bienvenue sur SmoothCloudServices!',
+    pageTitle: 'Bienvenue sur SmoothCloud!',
     wartungsText: 'Ce site est actuellement en maintenance. Veuillez réessayer plus tard !'
   },
   'es': {
     imageName: "spain",
-    pageTitle: '¡Bienvenido a SmoothCloudServices!',
+    pageTitle: '¡Bienvenido a SmoothCloud!',
     wartungsText: 'Este sitio está actualmente en mantenimiento. Vuelva a intentarlo más tarde.'
   },
   'ru': {
     imageName: "russian",
-    pageTitle: 'Добро пожаловать в SmoothCloudServices!',
+    pageTitle: 'Добро пожаловать в SmoothCloud!',
     wartungsText: 'Этот сайт в настоящее время находится на обслуживании. Пожалуйста, повторите попытку позже!'
   }
 };
